@@ -81,8 +81,13 @@
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
     <option_fullscreen>false</option_fullscreen>
+<<<<<<< HEAD
     <option_gameguid>{4EF781E0-E61C-4A26-BC7C-12F1718DF91C}</option_gameguid>
     <option_gameid>769502850</option_gameid>
+=======
+    <option_gameguid>{FA1AEC01-D4E1-444E-8702-DA5860EFD796}</option_gameguid>
+    <option_gameid>481624182</option_gameid>
+>>>>>>> origin/master
     <option_haptic_effects>false</option_haptic_effects>
     <option_hasloadimage>false</option_hasloadimage>
     <option_helpkey>true</option_helpkey>
