@@ -21,6 +21,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\object0</object>
+    <object>objects\obj_jack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
