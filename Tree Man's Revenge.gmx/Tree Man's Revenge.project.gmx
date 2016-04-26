@@ -23,8 +23,9 @@
   <objects name="objects">
     <object>objects\obj_floor</object>
     <object>objects\obj_wall</object>
-    <object>objects\obj_jack</object>
     <object>objects\obj_fire</object>
+    <object>objects\obj_jack</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
