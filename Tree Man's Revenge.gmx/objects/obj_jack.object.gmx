@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = pi/15
-hspeed = 5 or -5
+            <string>image_speed = pi/16
+hspeed = 8
 alarm[7] = 50
 </string>
           </argument>
@@ -50,14 +50,15 @@ alarm[7] = 50
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = -15
-gravity = 0.5
+            <string>if (place_free(x,y-15))
+    vspeed = -15
+    gravity = 0.5
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object0">
+    <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -74,18 +75,20 @@ gravity = 0.5
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if hspeed = 5 &amp;&amp; (place_free(x+5,y))
-    hspeed = 5
-else
+            <string>if hspeed = 5
     hspeed = -5
 
-if hspeed = -5 and (place_free(x-5,y))
+if hspeed = -5
+    hspeed = 5
+
+/*if vspeed &gt; 5 and hspeed = 5
+    hspeed = 5
+    vspeed = 0
+
+if vspeed &gt; 5 and hspeed = -5
     hspeed = -5
-else
-    hspeed = 5
-if vspeed &gt; 10
-    hspeed = 5
-    move_snap(34,34)
+    vspeed = 0
+*/
 </string>
           </argument>
         </arguments>
