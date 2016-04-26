@@ -9,6 +9,7 @@
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_jack</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\spr_fire</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -22,10 +23,12 @@
   <objects name="objects">
     <object>objects\object0</object>
     <object>objects\obj_jack</object>
+    <object>objects\obj_fire</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
-    <room>rooms\room0</room>
+    <room>rooms\rm_1</room>
+    <room>rooms\rm_2</room>
+    <room>rooms\rm_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
