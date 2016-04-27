@@ -29,7 +29,6 @@
 hspeed = 8
 alarm[7] = 50
 health = 100
-
 </string>
           </argument>
         </arguments>
@@ -83,7 +82,7 @@ health = 100
 if hspeed &lt; 0
     hspeed = 8
 
-if vspeed &gt; 5 &amp;&amp; hspeed &gt; 0
+/*if vspeed &gt; 5 &amp;&amp; hspeed &gt; 0
     vspeed = 7.5
     hspeed = -8
 

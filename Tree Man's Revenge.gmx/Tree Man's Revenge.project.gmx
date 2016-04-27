@@ -27,8 +27,11 @@
     <object>objects\obj_player</object>
     <object>objects\obj_jack</object>
     <object>objects\obj_jackcontroller</object>
+    <object>objects\obj_exit</object>
+    <object>objects\obj_controller</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_startscreen</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
     <room>rooms\rm_3</room>
