@@ -26,6 +26,7 @@
     <object>objects\obj_fire</object>
     <object>objects\obj_player</object>
     <object>objects\obj_jack</object>
+    <object>objects\obj_jackcontroller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
