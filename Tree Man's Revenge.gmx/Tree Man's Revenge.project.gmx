@@ -10,7 +10,6 @@
     <sprite>sprites\spr_jack</sprite>
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\spr_fire</sprite>
-    <sprite>sprites\sprite4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
