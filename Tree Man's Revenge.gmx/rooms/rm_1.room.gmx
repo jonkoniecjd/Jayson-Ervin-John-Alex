@@ -93,6 +93,7 @@
     <instance objName="obj_wall" x="864" y="256" name="inst_CB9390A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="864" y="224" name="inst_B38486F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="864" y="192" name="inst_591BCCE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="obj_player" x="576" y="448" name="inst_1DBA2FAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="0" y="736" name="inst_5BDFF6C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="32" y="736" name="inst_883019CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -204,6 +205,9 @@
     <instance objName="obj_wall" x="992" y="608" name="inst_A295D834" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="992" y="544" name="inst_D98B94FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="992" y="480" name="inst_8A8AC0F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="obj_jackcontroller" x="0" y="0" name="inst_57E3605B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> origin/master
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
