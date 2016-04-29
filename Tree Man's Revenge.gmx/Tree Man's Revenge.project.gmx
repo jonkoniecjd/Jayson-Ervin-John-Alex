@@ -20,6 +20,8 @@
     <background>background\background3</background>
     <background>background\bg_camp</background>
     <background>background\bg_door_window</background>
+    <background>background\background6</background>
+    <background>background\background7</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
