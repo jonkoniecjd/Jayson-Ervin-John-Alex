@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check("r"))
-game_restart();
+            <string>/*if (keyboard_check('r'))
+    game_restart();
 </string>
           </argument>
         </arguments>
