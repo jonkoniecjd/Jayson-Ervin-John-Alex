@@ -9,14 +9,21 @@
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_jack</sprite>
     <sprite>sprites\sprite2</sprite>
+<<<<<<< HEAD
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite4</sprite>
+=======
+    <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_health</sprite>
+    <sprite>sprites\spr_coin</sprite>
+>>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background0</background>
     <background>background\background2</background>
     <background>background\background3</background>
+<<<<<<< HEAD
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -25,6 +32,36 @@
   <rooms name="rooms">
     <room>rooms\room1</room>
     <room>rooms\room0</room>
+=======
+    <background>background\bg_camp</background>
+    <background>background\bg_door_window</background>
+    <background>background\background6</background>
+    <background>background\background7</background>
+  </backgrounds>
+  <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_floor</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_fire</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_jack</object>
+    <object>objects\obj_jackcontroller</object>
+    <object>objects\obj_exit</object>
+    <object>objects\obj_controller</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_startscreen</room>
+    <room>rooms\rm_1</room>
+    <room>rooms\rm_2</room>
+    <room>rooms\rm_3</room>
+    <room>rooms\rm_4</room>
+    <room>rooms\rm_5</room>
+    <room>rooms\rm_6</room>
+    <room>rooms\rm_7</room>
+    <room>rooms\rm_8</room>
+    <room>rooms\rm_9</room>
+    <room>rooms\rm_10</room>
+>>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
