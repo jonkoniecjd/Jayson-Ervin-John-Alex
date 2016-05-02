@@ -51,6 +51,12 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
+<<<<<<< HEAD
+    <instance objName="obj_player" x="288" y="224" name="inst_C1E1231D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="608" y="160" name="inst_064573C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+  </instances>
+  <tiles/>
+=======
     <instance objName="obj_floor" x="992" y="736" name="inst_79375A99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="960" y="736" name="inst_04849DCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="928" y="736" name="inst_E85A24A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -282,6 +288,7 @@
     <tile bgName="bg_door_window" x="736" y="688" w="16" h="16" xo="16" yo="144" id="10000150" name="inst_CDE0F56B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="848" y="688" w="16" h="16" xo="16" yo="144" id="10000151" name="inst_517E2424" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
+>>>>>>> origin/master
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
