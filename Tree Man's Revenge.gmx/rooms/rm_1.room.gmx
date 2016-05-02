@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -159,6 +159,16 @@
     <instance objName="obj_wall" x="992" y="96" name="inst_A96BC6BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="992" y="64" name="inst_A7AE7375" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="992" y="32" name="inst_CD4E91BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="320" y="672" name="inst_6A36E304" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="384" y="608" name="inst_A6A0B8A7" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="480" y="672" name="inst_A4842E9E" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="544" y="704" name="inst_E2B9B6D9" locked="0" code="" scaleX="0.533333361148834" scaleY="0.529999971389771" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="576" y="704" name="inst_989A9E67" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="608" y="720" name="inst_A301C42F" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="672" y="640" name="inst_113D5D67" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="720" y="688" name="inst_BDA96BC4" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="752" y="704" name="inst_0192869F" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="432" y="640" name="inst_1A9494F4" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
