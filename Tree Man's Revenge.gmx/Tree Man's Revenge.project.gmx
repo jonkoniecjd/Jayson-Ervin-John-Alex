@@ -37,16 +37,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
-    <room>rooms\rm_1</room>
-    <room>rooms\rm_2</room>
-    <room>rooms\rm_3</room>
-    <room>rooms\rm_4</room>
-    <room>rooms\rm_5</room>
-    <room>rooms\rm_6</room>
-    <room>rooms\rm_7</room>
-    <room>rooms\rm_8</room>
-    <room>rooms\rm_9</room>
-    <room>rooms\rm_10</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
