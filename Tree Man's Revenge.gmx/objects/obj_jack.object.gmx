@@ -76,10 +76,10 @@ alarm[7] = 50
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if hspeed &gt; 0
+            <string>if hspeed = 8
     hspeed = -8
 
-if hspeed &lt; 0
+if hspeed = -8
     hspeed = 8
 
 /*if vspeed &gt; 5 &amp;&amp; hspeed &gt; 0
@@ -112,7 +112,6 @@ if vspeed &gt; 5 &amp;&amp; hspeed &lt; 0
           <argument>
             <kind>1</kind>
             <string>gravity = 0
-
 </string>
           </argument>
         </arguments>
