@@ -50,9 +50,9 @@
             <kind>1</kind>
             <string>if (keyboard_check(vk_up))
 {    
-alarm[4] = 40
-vspeed = -7
-gravity = 0.69
+alarm[4] = 50
+vspeed = -15
+gravity = 0.65
 }
 else
 {
@@ -135,9 +135,11 @@ if !room_exists(room_goto_next())
           <argument>
             <kind>1</kind>
             <string>if vspeed &gt; 0
+    y = y - 4
     vspeed = 0
     gravity = 0
 if vspeed &lt; 0
+    y = y - 4
     vspeed = 0
     gravity = 0
 </string>
