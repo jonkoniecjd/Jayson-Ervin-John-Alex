@@ -29,6 +29,7 @@
 image_speed = pi/16
 hspeed = 8
 alarm[7] = 50
+alarm[2] = 25
 </string>
           </argument>
         </arguments>
@@ -59,6 +60,30 @@ alarm[7] = 50
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[2] = 20
+move_bounce_all(true)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_floor">
       <action>
         <libid>1</libid>
@@ -76,20 +101,14 @@ alarm[7] = 50
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gravity = 0
-if hspeed &gt; 0
-    hspeed = -8
+            <string>if hspeed &gt; 0
+    gravity = 0.4
+    move_bounce_all(true)
 
 if hspeed &lt; 0
-    hspeed = 8
+    gravity = 0.4
+    move_bounce_all(true)
 
-/*if vspeed &gt; 5 &amp;&amp; hspeed &gt; 0
-    vspeed = 7.5
-    hspeed = -8
-
-if vspeed &gt; 5 &amp;&amp; hspeed &lt; 0
-    vspeed = 7.5
-    hspeed = 8
 </string>
           </argument>
         </arguments>
