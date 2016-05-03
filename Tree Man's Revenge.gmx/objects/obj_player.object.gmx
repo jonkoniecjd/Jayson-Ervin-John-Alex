@@ -134,7 +134,12 @@ if !room_exists(room_goto_next())
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gravity = 0
+            <string>if vspeed &gt; 0
+    vspeed = 0
+    gravity = 0
+if vspeed &lt; 0
+    vspeed = 0
+    gravity = 0
 </string>
           </argument>
         </arguments>
