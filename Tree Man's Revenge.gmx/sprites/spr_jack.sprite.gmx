@@ -7,9 +7,9 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>18</bbox_left>
-  <bbox_right>89</bbox_right>
-  <bbox_top>5</bbox_top>
+  <bbox_left>0</bbox_left>
+  <bbox_right>99</bbox_right>
+  <bbox_top>0</bbox_top>
   <bbox_bottom>119</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -22,5 +22,7 @@
   <frames>
     <frame index="0">images\spr_jack_0.png</frame>
     <frame index="1">images\spr_jack_1.png</frame>
+    <frame index="2">images\spr_jack_2.png</frame>
+    <frame index="3">images\spr_jack_3.png</frame>
   </frames>
 </sprite>
