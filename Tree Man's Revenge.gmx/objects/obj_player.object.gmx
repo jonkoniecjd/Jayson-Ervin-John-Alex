@@ -32,6 +32,30 @@ gravity = 0.6
         </arguments>
       </action>
     </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>gravity = 0.65
+show_message("woz")
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="4">
       <action>
         <libid>1</libid>
@@ -92,6 +116,80 @@ if (keyboard_check(vk_nokey))
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_nonair">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[5] = 75
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_air">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[5] = 75
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_enemy">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if sprite_index = 7
+with(other)
+{
+instance_destroy();
+score = score + 10
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_exit">
       <action>
         <libid>1</libid>
@@ -135,56 +233,61 @@ if !room_exists(room_goto_next())
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if vspeed &gt; 0
-{   
+            <string>/*if vspeed &gt; 0
+
+{
 vspeed = 0
 gravity = 0
 move_snap(2,32)
 }
 
 if vspeed &lt; 0
+
 {
 vspeed = 0
-gravity = 0
+gravity = 0.2
 }
-    
+*/
 if hspeed = 0 and vspeed = 0
+
 {    
 gravity = 0
 vspeed = 0
 hspeed = 0
 }
-
 if hspeed &gt; 0 and vspeed &gt; 0
-{   
-move_bounce_all(true)
-vspeed = 0.2
+
+{
+gravity = 0
 hspeed = 0
+move_snap(2,32)
 } 
-   
 if hspeed &lt; 0 and vspeed &lt; 0
+
 {   
 gravity = 0.65
 vspeed = 0
 } 
    
 if hspeed &gt; 0 and vspeed &lt; 0
+
 {    
 gravity = 0.65
 vspeed = 0
 }  
  
 if hspeed &lt; 0 and vspeed &gt; 0
+
 {    
-move_bounce_all(true)
-vspeed = 0.2
-hspeed = 0
+vspeed = vspeed
+hspeed = hspeed
 }
 else
+
 {
 hspeed = 0
 vspeed = 0
-gravity = 0.65
+gravity = 0
 }
 </string>
           </argument>

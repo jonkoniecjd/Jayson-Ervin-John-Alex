@@ -58,8 +58,7 @@ gravity = 0.4
 }
 else
 {
-
-
+y = y - 32
 }
 </string>
           </argument>
