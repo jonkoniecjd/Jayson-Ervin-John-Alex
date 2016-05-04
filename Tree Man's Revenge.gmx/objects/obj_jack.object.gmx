@@ -28,33 +28,7 @@
             <string>health = 100
 image_speed = pi/16
 hspeed = 8
-alarm[7] = 50
 alarm[2] = 25
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="7">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/*if (place_free(x,y-15))
-    vspeed = -15
-    gravity = 0.5
 </string>
           </argument>
         </arguments>
@@ -103,12 +77,12 @@ move_bounce_all(true)
             <kind>1</kind>
             <string>if hspeed &lt; 0
 {
-sprite_index = 0-1
+sprite_index = (2 &amp;&amp; 3)
 image_speed = pi/16
 }
 if hspeed &gt; 0
 {
-sprite_index = 2-3
+sprite_index = (0 &amp;&amp; 1)
 image_speed = pi/16
 }
 </string>
@@ -134,11 +108,13 @@ image_speed = pi/16
           <argument>
             <kind>1</kind>
             <string>if hspeed &gt; 0
-    gravity = 0.4
+    gravity = 0.7
+    speed = 5
     move_bounce_all(true)
 
 if hspeed &lt; 0
-    gravity = 0.4
+    gravity = 0.7
+    speed = 5
     move_bounce_all(true)
 
 </string>
