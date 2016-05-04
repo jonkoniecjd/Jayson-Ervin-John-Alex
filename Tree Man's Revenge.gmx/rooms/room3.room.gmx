@@ -171,6 +171,7 @@
     <instance objName="obj_coin" x="752" y="640" name="inst_A760E7DC" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="848" y="640" name="inst_EC6C5E5F" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin" x="912" y="640" name="inst_BF011609" locked="0" code="" scaleX="0.533333361148834" scaleY="0.533333361148834" colour="4294967295" rotation="0"/>
+    <instance objName="obj_coin" x="704" y="704" name="inst_0755E50D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_door_window" x="880" y="720" w="16" h="16" xo="32" yo="176" id="10000003" name="inst_7F9A5B65" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -224,16 +225,11 @@
     <tile bgName="bg_door_window" x="752" y="656" w="16" h="16" xo="0" yo="64" id="10000073" name="inst_01D9FF6D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="768" y="656" w="16" h="16" xo="0" yo="64" id="10000074" name="inst_913B935F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="784" y="656" w="16" h="16" xo="0" yo="64" id="10000075" name="inst_BB1C372A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_door_window" x="720" y="656" w="16" h="16" xo="0" yo="64" id="10000076" name="inst_7F3228EF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_door_window" x="800" y="656" w="16" h="16" xo="0" yo="64" id="10000077" name="inst_F0D15BF5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_door_window" x="832" y="656" w="16" h="16" xo="0" yo="64" id="10000078" name="inst_CC056A24" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="848" y="656" w="16" h="16" xo="0" yo="64" id="10000079" name="inst_DFDCBEF1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="880" y="656" w="16" h="16" xo="0" yo="64" id="10000080" name="inst_4CC196DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="864" y="656" w="16" h="16" xo="0" yo="64" id="10000081" name="inst_E29D77F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="896" y="656" w="16" h="16" xo="0" yo="64" id="10000082" name="inst_C91CB62F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_door_window" x="912" y="656" w="16" h="16" xo="0" yo="64" id="10000083" name="inst_37A589E1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="912" y="672" w="16" h="16" xo="0" yo="64" id="10000084" name="inst_BC5E8E31" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_door_window" x="688" y="656" w="16" h="16" xo="0" yo="64" id="10000085" name="inst_2FD46884" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="688" y="672" w="16" h="16" xo="0" yo="64" id="10000086" name="inst_C22076B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="688" y="688" w="16" h="16" xo="0" yo="64" id="10000087" name="inst_915D1A10" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="688" y="704" w="16" h="16" xo="0" yo="64" id="10000088" name="inst_98B82DAA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -242,7 +238,6 @@
     <tile bgName="bg_door_window" x="672" y="656" w="16" h="16" xo="0" yo="64" id="10000091" name="inst_A28605F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="640" y="656" w="16" h="16" xo="0" yo="64" id="10000092" name="inst_B560EA0A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="624" y="656" w="16" h="16" xo="0" yo="64" id="10000093" name="inst_95CE725F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_door_window" x="608" y="656" w="16" h="16" xo="0" yo="64" id="10000094" name="inst_3E8DD7F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="608" y="672" w="16" h="16" xo="0" yo="64" id="10000095" name="inst_F1F8B13D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="608" y="688" w="16" h="16" xo="0" yo="64" id="10000096" name="inst_CB83ECDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="608" y="704" w="16" h="16" xo="0" yo="64" id="10000097" name="inst_78C7A8FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
