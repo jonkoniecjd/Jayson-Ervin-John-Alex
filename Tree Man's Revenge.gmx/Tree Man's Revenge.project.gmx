@@ -15,11 +15,7 @@
     <sprite>sprites\sprite6</sprite>
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite8</sprite>
-<<<<<<< HEAD
     <sprite>sprites\spr_weapon</sprite>
-=======
-    <sprite>sprites\sprite9</sprite>
->>>>>>> origin/master
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -31,6 +27,7 @@
     <background>background\background6</background>
     <background>background\background7</background>
     <background>background\background8</background>
+    <background>background\background9</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
