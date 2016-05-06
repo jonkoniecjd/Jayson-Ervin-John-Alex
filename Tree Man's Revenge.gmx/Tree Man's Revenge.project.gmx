@@ -16,6 +16,7 @@
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite8</sprite>
     <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\spr_air</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -41,6 +42,7 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_air</object>
     <object>objects\obj_nonair</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
