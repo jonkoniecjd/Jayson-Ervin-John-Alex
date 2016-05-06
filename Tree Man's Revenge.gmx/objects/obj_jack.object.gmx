@@ -28,13 +28,18 @@
             <string>health = 100
 image_speed = pi/16
 hspeed = 8
+alarm[7] = 50
 alarm[2] = 25
 </string>
           </argument>
         </arguments>
       </action>
     </event>
+<<<<<<< HEAD
+    <event eventtype="2" enumb="7">
+=======
     <event eventtype="2" enumb="9">
+>>>>>>> origin/master
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,6 +56,11 @@ alarm[2] = 25
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
+            <string>/*if (place_free(x,y-15))
+    vspeed = -15
+    gravity = 0.5
+=======
             <string>if (place_free(x+10,y))
 {
 vspeed = -5
@@ -60,6 +70,7 @@ else
 {
 y = y - 32
 }
+>>>>>>> origin/master
 </string>
           </argument>
         </arguments>
@@ -108,12 +119,12 @@ move_bounce_all(true)
             <kind>1</kind>
             <string>if hspeed &lt; 0
 {
-sprite_index = (2 &amp;&amp; 3)
+sprite_index = 0-1
 image_speed = pi/16
 }
 if hspeed &gt; 0
 {
-sprite_index = (0 &amp;&amp; 1)
+sprite_index = 2-3
 image_speed = pi/16
 }
 if hspeed = 0
@@ -142,15 +153,19 @@ sprite_index = (1)
         <arguments>
           <argument>
             <kind>1</kind>
+<<<<<<< HEAD
+            <string>if hspeed &gt; 0
+    gravity = 0.4
+=======
             <string>alarm[9] = 30
 if hspeed &gt; 0
     gravity = 0.7
     speed = 5
+>>>>>>> origin/master
     move_bounce_all(true)
 
 if hspeed &lt; 0
-    gravity = 0.7
-    speed = 5
+    gravity = 0.4
     move_bounce_all(true)
 
 
