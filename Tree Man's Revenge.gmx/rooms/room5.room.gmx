@@ -255,6 +255,7 @@
     <tile bgName="bg_door_window" x="640" y="720" w="16" h="16" xo="16" yo="80" id="10000201" name="inst_F7A291CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="656" y="688" w="16" h="16" xo="16" yo="144" id="10000202" name="inst_B3615D47" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="768" y="688" w="16" h="16" xo="16" yo="144" id="10000203" name="inst_80F4EEC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+<<<<<<< HEAD
     <tile bgName="bg_door_window" x="480" y="720" w="16" h="16" xo="128" yo="48" id="10000544" name="inst_CDE830DD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="496" y="720" w="16" h="16" xo="128" yo="48" id="10000545" name="inst_2038598D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_door_window" x="512" y="720" w="16" h="16" xo="128" yo="48" id="10000546" name="inst_9C880ED3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -324,6 +325,8 @@
     <tile bgName="background8" x="288" y="688" w="16" h="16" xo="256" yo="320" id="10000913" name="inst_EA2B9766" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background8" x="288" y="704" w="16" h="16" xo="256" yo="336" id="10000914" name="inst_13161EC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background8" x="288" y="720" w="16" h="16" xo="256" yo="352" id="10000915" name="inst_56E255B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+=======
+>>>>>>> origin/master
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
