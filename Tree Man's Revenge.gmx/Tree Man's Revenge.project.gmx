@@ -25,24 +25,29 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 3a2698d... gh
 =======
 >>>>>>> parent of ce36751... v
+=======
+>>>>>>> parent of f45c32a... f
     <sprite>sprites\spr_air</sprite>
 =======
 >>>>>>> origin/master
 >>>>>>> origin/master
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 0141267... ,mknjbhcgfd
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 0141267... ,mknjbhcgfd
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 3a2698d... gh
 =======
 >>>>>>> parent of ce36751... v
+=======
+>>>>>>> parent of f45c32a... f
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -69,7 +74,6 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_air</object>
     <object>objects\obj_nonair</object>
-    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
