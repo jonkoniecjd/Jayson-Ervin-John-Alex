@@ -111,14 +111,6 @@ if (keyboard_check(vk_right))
     hspeed = 5
 if (keyboard_check(vk_nokey))
     hspeed = 0
-if (place_free(x,y))
-{
-hspeed = hspeed
-}
-else
-{
-move_snap(2,32)
-}
 </string>
           </argument>
         </arguments>
@@ -241,7 +233,7 @@ if !room_exists(room_goto_next())
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if vspeed &gt; 0
+            <string>/*if vspeed &gt; 0
 
 {
 vspeed = 0
@@ -253,30 +245,23 @@ if vspeed &lt; 0
 
 {
 vspeed = 0
-gravity = 0.15
+gravity = 0.2
 }
-
+*/
 if hspeed = 0 and vspeed = 0
 
 {    
 gravity = 0
+vspeed = 0
+hspeed = 0
 }
-
 if hspeed &gt; 0 and vspeed &gt; 0
 
 {
 gravity = 0
 hspeed = 0
 move_snap(2,32)
-}
-
-/*if hspeed = 0 and vspeed &lt; 0
-
-{
-vspeed = 0
-gravity = 0.65
-}
-
+} 
 if hspeed &lt; 0 and vspeed &lt; 0
 
 {   
@@ -290,7 +275,20 @@ if hspeed &gt; 0 and vspeed &lt; 0
 gravity = 0.65
 vspeed = 0
 }  
-*/
+ 
+if hspeed &lt; 0 and vspeed &gt; 0
+
+{    
+vspeed = vspeed
+hspeed = hspeed
+}
+else
+
+{
+hspeed = 0
+vspeed = 0
+gravity = 0
+}
 </string>
           </argument>
         </arguments>
