@@ -21,10 +21,13 @@
 =======
     <sprite>sprites\sprite9</sprite>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sprite>sprites\spr_air</sprite>
 =======
 >>>>>>> origin/master
 >>>>>>> origin/master
+=======
+>>>>>>> parent of 0141267... ,mknjbhcgfd
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -51,7 +54,6 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_air</object>
     <object>objects\obj_nonair</object>
-    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
