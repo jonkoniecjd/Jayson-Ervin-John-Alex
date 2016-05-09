@@ -15,6 +15,39 @@
     <sprite>sprites\sprite6</sprite>
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite8</sprite>
+<<<<<<< HEAD
+    <sprite>sprites\spr_weapon</sprite>
+    <sprite>sprites\spr_boss_weapon</sprite>
+=======
+    <sprite>sprites\sprite9</sprite>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3a2698d... gh
+=======
+>>>>>>> parent of ce36751... v
+=======
+>>>>>>> parent of f45c32a... f
+    <sprite>sprites\spr_air</sprite>
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+=======
+>>>>>>> parent of 0141267... ,mknjbhcgfd
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 0141267... ,mknjbhcgfd
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3a2698d... gh
+=======
+>>>>>>> parent of ce36751... v
+=======
+>>>>>>> parent of f45c32a... f
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -25,17 +58,22 @@
     <background>background\bg_door_window</background>
     <background>background\background6</background>
     <background>background\background7</background>
+    <background>background\background8</background>
+    <background>background\background9</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_floor</object>
     <object>objects\obj_fire</object>
-    <object>objects\obj_player</object>
     <object>objects\obj_jack</object>
+    <object>objects\obj_player</object>
     <object>objects\obj_jackcontroller</object>
     <object>objects\obj_exit</object>
     <object>objects\obj_controller</object>
     <object>objects\obj_coin</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_air</object>
+    <object>objects\obj_nonair</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_startscreen</room>
